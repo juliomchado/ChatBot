@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./font/Roboto-Bold.ttf");
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  display: flex;
+  padding-top: 1.5%;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+

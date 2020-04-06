@@ -1,0 +1,238 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+    background-color: #272727;
+}
+
+.img-login {
+    padding: 0;
+    margin: 0;
+    -webkit-animation: scale-up-center 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale-up-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.img-login {
+    display: relative;
+    margin-top: 4%;
+    height: 800px;
+    width: 1300px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 30px;
+}
+
+.welcome {
+    background: none;
+    text-shadow: 1px 1px 13px rgba(173, 173, 173, 0.59);
+    margin-left: 12px;
+    font-style: 900;
+    font-size: 50px;
+}
+
+.input-container label {
+    margin-left: 5px;
+    font-style: 900;
+}
+
+
+.input {
+    border: transparent;
+    opacity: 60%;
+    text-indent: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border-color: #b5b5b5;
+    height: 40px;
+    width: 296px;
+    outline: none;
+}
+
+.input:focus {
+    opacity: 100%;
+}
+
+.button {
+    background-color: #454545;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    height: 57px;
+    width: 299px;
+    color: #bab8b8;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.button:hover {
+    background-color: #707070;
+    color: #272727;
+    transition: 0.5s;
+}
+.button:active {
+    -webkit-box-shadow: 0px 0px 56px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 56px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 56px 0px rgba(255, 255, 255, 1);
+}
+
+.register-reset {
+    display: flex;
+    align-content: flex-start;
+    margin-top: 5px;
+}
+
+.reset-password {
+    text-decoration: none;
+    color: #c2c1c1;
+    font-size: 13px;
+    margin-right: 85px;
+    font-style: normal;
+    margin-left: 3.5px;
+}
+
+.register {
+    text-decoration: none;
+    color: #c2c1c1;
+    font-size: 13px;
+}
+
+.reset-password:hover {
+    color: #e4e4e4;
+}
+.register:hover {
+    color: #e4e4e4;
+}
+::placeholder {
+    color: #868383;
+}
+
+@media (max-width: 1906px) {
+    .img-login {
+        height: 800px;
+        width: 800px;
+    }
+}
+@media (max-width: 1394px) {
+    .img-login {
+        height: 700px;
+        width: 700px;
+    }
+}
+@media (max-width: 1270px) {
+    .img-login {
+        height: 700px;
+        width: 500px;
+    }
+}
+@media (max-width: 1073px) {
+    .img-login {
+        height: 700px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 35px;
+        border-radius: 10px;
+        height: 90vh;
+        width: 90vw;
+        background-color: #272727;
+    }
+
+    .img-login {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .input-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .img-login {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .input-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        margin-left: 38px;
+    }
+    .img-login {
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        background-color: transparent;
+    }
+    .input-container {
+        margin: 25px 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        background-color: transparent;
+    }
+    .input-container {
+        margin: 25px 5px;
+    }
+    .input {
+        height: 40px;
+        width: 250px;
+    }
+    .button-login {
+        width: 260px;
+    }
+    .welcome {
+        margin-left: 25px;
+        font-style: 900;
+        font-size: 40px;
+    }
+}

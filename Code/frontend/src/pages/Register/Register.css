@@ -1,0 +1,77 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 6%;
+    margin-left: 25%;
+    margin-right: 30px;
+}
+
+.welcome-register {
+    margin: 0;
+    background: none;
+    text-shadow: 1px 1px 13px rgba(173, 173, 173, 0.59);
+    margin-left: 12px;
+    font-style: 900;
+    font-size: 50px;
+}
+
+.register-free {
+    padding: 0;
+    margin-top: 0;
+    margin-right: 455px;
+    margin-bottom: 45px;
+    font-size: 23px;
+    color: #bab8b8;
+}
+
+label {
+    display: absolute;
+    margin-right: 200px;
+    font-style: 900;
+}
+
+option {
+    border-radius: 15px;
+    background: #272727;
+    border: none;
+    outline: none;
+    color: #bab8b8;
+}
+
+.back {
+    text-decoration: none;
+    color: #c2c1c1;
+    font-size: 15px;
+    margin-right: 85px;
+    font-style: normal;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.back-icon {
+    border-bottom: 15px;
+    width: 30px;
+    height: 15px;
+}
+.position-icon {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.img-register {
+    display: absolute;
+    margin-top: 2%;
+    height: 800px;
+    width: 1300px;
+}
+
+.modal {
+    display: absolute;
+    background-color: #1e1e1e;
+    height: 350px;
+    width: 300px;
+    z-index: 100;
+}

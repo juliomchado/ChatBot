@@ -1,0 +1,70 @@
+.container-reset {
+    display: flex;
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+    background-color: #272727;
+}
+
+.messege-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.img-reset {
+    display: absolute;
+    margin-top: 5%;
+    margin-right: 15%;
+    height: 800px;
+    width: 1300px;
+
+    -webkit-animation: scale-up-center 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale-up-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.email-messege {
+    padding: 0;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.verify-messege {
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: #bab8b8;
+}
