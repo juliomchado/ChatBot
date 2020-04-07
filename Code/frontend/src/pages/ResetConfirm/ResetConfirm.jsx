@@ -16,7 +16,7 @@ export default ResetConfirm => {
                     <h1 className="email-messege">Email enviado para j***12**@**mail.com.br com sucesso!</h1>
                 </Animated>
                 <Animated className="animated" animationIn="bounceInLeft" isVisible={true} animationInDelay={1}>
-                    <h2 className="verify-messege">Verifique a caixa de spam e a lixeira do seu email!</h2>
+                    <h2 className="verify-messege">Verifique a caixa de spam e a lixeira do seu email</h2>
                 </Animated>
             </div>
         </div>
