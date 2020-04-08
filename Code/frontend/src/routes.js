@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Login from './pages/Login/Login'
+import Main from './pages/Main'
 import Register from './pages/Register/Register'
 import Confirm from './pages/ConfirmRegister/ConfirmRegister'
 import Reset from './pages/ResetPassword/ResetPassword'
@@ -16,6 +17,7 @@ export default Routes => {
                 <Route path="/confirm" exact component={Confirm} />
                 <Route path="/reset" exact component={Reset} />
                 <Route path="/resetConfirm" exact component={ResetConfirm} />
+                <Route path="/main" exact component={Main} />
             </Switch>
         </BrowserRouter>
 
